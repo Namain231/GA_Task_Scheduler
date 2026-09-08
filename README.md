@@ -61,7 +61,7 @@ Comparative Gantt charts illustrating task sequencing and resource allocation ac
 ### Running in Google Colab
 Click below to open the interactive notebook directly in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Namain231/GA_Task_Scheduler/blob/main/GA_Task_Scheduler.ipynb)
 
 ### Local Setup
 1. **Clone the repository:**
