@@ -66,7 +66,7 @@ Click below to open the interactive notebook directly in Colab:
 ### Local Setup
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/dag-multiprocessor-task-scheduling.git](https://github.com/YOUR_USERNAME/dag-multiprocessor-task-scheduling.git)
+   git clone [https://github.com/Namain231/dag-multiprocessor-task-scheduling.git](https://github.com/Namain231/dag-multiprocessor-task-scheduling.git)
    cd dag-multiprocessor-task-scheduling
    ```
 2. **Install required dependencies.**
