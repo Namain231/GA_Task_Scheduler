@@ -9,7 +9,7 @@ A Python-based simulation framework designed to solve the NP-hard problem of sch
 
 ---
 
-## 📌 The Engineering Challenge
+## The Engineering Challenge
 
 Modern computational workloads—such as machine learning pipelines and real-time signal processing—are modeled as **Directed Acyclic Graphs (DAGs)** where tasks have strict execution dependencies. The scheduler must solve a complex two-fold optimization problem under hardware constraints:
 
@@ -18,7 +18,7 @@ Modern computational workloads—such as machine learning pipelines and real-tim
 
 ---
 
-## 💡 Solution Architecture
+## Solution Architecture
 
 We engineered a two-phase algorithmic framework to escape local optima and optimize global task placement:
 
@@ -27,7 +27,7 @@ We engineered a two-phase algorithmic framework to escape local optima and optim
 
 ---
 
-## 📊 Benchmarks & Performance Results
+## Benchmarks & Performance Results
 
 Evaluated against the standard 10-task reference DAG from *Topcuoglu et al. (2002)* on a 3-processor heterogeneous system:
 
@@ -56,7 +56,7 @@ Comparative Gantt charts illustrating task sequencing and resource allocation ac
 * ![GA Gantt Chart](Assets/Gantt_GA.png)
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### Running in Google Colab
 Click below to open the interactive notebook directly in Colab:
