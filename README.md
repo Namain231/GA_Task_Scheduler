@@ -9,7 +9,7 @@ A Python-based simulation framework designed to solve the NP-hard problem of sch
 
 ---
 
-##1. The Engineering Challenge
+## 1. The Engineering Challenge
 
 Modern computational workloads—such as machine learning pipelines and real-time signal processing—are modeled as **Directed Acyclic Graphs (DAGs)** where tasks have strict execution dependencies. The scheduler must solve a complex two-fold optimization problem under hardware constraints:
 
@@ -18,7 +18,7 @@ Modern computational workloads—such as machine learning pipelines and real-tim
 
 ---
 
-##2. Solution Architecture
+## 2. Solution Architecture
 
 We engineered a two-phase algorithmic framework to escape local optima and optimize global task placement:
 
@@ -27,7 +27,7 @@ We engineered a two-phase algorithmic framework to escape local optima and optim
 
 ---
 
-##3. Benchmarks & Performance Results
+## 3. Benchmarks & Performance Results
 
 Evaluated against the standard 10-task reference DAG from *Topcuoglu et al. (2002)* on a 3-processor heterogeneous system:
 
@@ -41,7 +41,7 @@ Evaluated against the standard 10-task reference DAG from *Topcuoglu et al. (200
 
 ---
 
-##4. Visualizations
+## 4. Visualizations
 
 ### (a). Evolutionary Convergence
 The hybrid seeding strategy enables the GA to start at the HEFT baseline upper bound ($C_{max} = 80$) and continuously mutate processor assignments to discover global optima ($C_{max} = 76$).
@@ -56,14 +56,14 @@ Comparative Gantt charts illustrating task sequencing and resource allocation ac
 * ![GA Gantt Chart](Assets/Gantt_GA.png)
 ---
 
-##5. Quickstart Guide
+## 5. Quickstart Guide
 
 ### Running in Google Colab
 Click below to open the interactive notebook directly in Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Namain231/GA_Task_Scheduler/blob/main/GA_Task_Scheduler.ipynb)
 
-###6. Local Setup
+### 6. Local Setup
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Namain231/dag-multiprocessor-task-scheduling.git](https://github.com/Namain231/dag-multiprocessor-task-scheduling.git)
